@@ -61,3 +61,5 @@ jobs:
             kubectl apply -f k8s/deployment.yaml --validate=false
             kubectl apply -f k8s/service.yaml --validate=false
             kubectl rollout status deployment/uwb-app --timeout=120s
+
+#This is a changed file
