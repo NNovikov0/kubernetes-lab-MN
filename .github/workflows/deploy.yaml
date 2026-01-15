@@ -63,4 +63,3 @@ jobs:
             kubectl rollout status deployment/uwb-app --timeout=120s
 
 #This is a changed file
-#Test comment for actions
